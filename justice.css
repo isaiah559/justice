@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dancing Script', cursive;
+}
+
+header{
+	background-image: url(myh.webp);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+ul{
+	float: right;
+ list-style: none;
+ margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease; 
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+
+ul li .active a{
+   background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 80px;
+	height: auto;
+
+}
+.main{
+	max-width: 1100px;
+	margin: auto;
+}
+
+.content{
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	padding-top: 25%;
+}
+
+.content h1{
+	font-size: bold;
+}
+
+.content button{
+	margin: 35px, 280px;
+}
+
+.button button {
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	border: 1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: 5s;
+	padding-right: 20px;
+	/*text-align: center;*/
+}
+ 
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+ button.btn {
+ 	margin: 20px;
+ }
+
+/*.button .btn{
+	margin-left: 25px;
+}*/
+
+.button button:hover{
+	background: #cc0000;
+
+}
+
